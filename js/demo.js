@@ -17,7 +17,7 @@
 // INITIALISATION and LOADING
 // Initialise the 3D scene
 var scene = new THREE.Scene();
-var modelPath = '../models/coronavirus/scene.gltf'
+var modelPath = 'models/coronavirus/scene.gltf'
 
 // Initialise the Rendered, bind to the body element and set the size to match viewport
 var renderer = new THREE.WebGLRenderer({ antialias: true });
